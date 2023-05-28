@@ -105,7 +105,7 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
-  left: -310px;
+  left: -275px;
   top: 220px;
   font-family: 'Roboto';
   font-style: normal;
@@ -122,8 +122,6 @@ a {
   border: 2px solid white;
   color: white;
   padding: 15px 25px;
-  width: 200px;
-  height: 58px;
   animation: ch-color-1 0.5s forwards;
 }
 

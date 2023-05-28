@@ -83,7 +83,7 @@ Modeus позволяет создавать разные наборы зада�
             order: 3;
             position: relative;
             top: -1000px;
-            left: -200px;
+            left: -170px;
             flex-grow: 0;">
             <img src="../assets/modeus2.jpg" alt="" style="display: flex;
                 flex-direction: row;
@@ -113,7 +113,7 @@ Modeus позволяет создавать разные наборы зада�
                 flex-grow: 0;">
         </div>
         <a href="" class="link1" style="position: relative; top: -820px; left: 750px; border: 2px solid rgba(151, 71, 255, 1);">ДОБАВИТЬ ФОТО</a>
-        <a href="" class="btn" style="top: -730px; left: 427px; padding-left: 40px; padding-right: 40px;">Сохранить</a>
+        <a href="" class="btn" style="top: -730px; left: 460px; padding-left: 40px; padding-right: 40px;">Сохранить</a>
     </div>
 </template>
 
