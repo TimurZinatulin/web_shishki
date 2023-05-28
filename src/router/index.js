@@ -8,12 +8,58 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/main',
+    name: 'main',
+    meta: {layout: 'main'},
+    component: () => import('../views/MainView.vue')
+  },
+  {
+    path: '/edit',
+    name: 'edit',
+    meta: {layout: 'extra'},
+    component: () => import('../views/EditView.vue')
+  },
+  {
+    path: '/favs',
+    name: 'favs',
+    meta: {layout: 'extra'},
+    component: () => import('../views/FavoriteView.vue')
+  },
+  {
+    path: '/my_projects',
+    name: 'my',
+    meta: {layout: 'extra'},
+    component: () => import('../views/MyProjectsView.vue')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    meta: {layout: 'empty'},
+    component: () => import('../views/LoginView.vue')
+  },
+  {
+    path: '/register',
+    name: 'register',
+    meta: {layout: 'empty'},
+    component: () => import('../views/RegisterView.vue')
+  },
+  {
+    path: '/create_project',
+    name: 'create_project',
+    meta: {layout: 'extra'},
+    component: () => import('../views/CreateProjectView.vue')
+  },
+  {
+    path: '/project',
+    name: 'project',
+    meta: {layout: 'extra'},
+    component: () => import('../views/ProjectView.vue')
+  },
+  {
+    path: '/profile',
+    name: 'profile',
+    meta: {layout: 'extra'},
+    component: () => import('../views/ProfileView.vue')
   }
 ]
 
