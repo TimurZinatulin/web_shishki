@@ -18,7 +18,7 @@
 </script>
 
 <style>
-@import 'C:/vue/web_shishki/src/templates/login.css';
-@import 'C:/vue/web_shishki/src/templates/main_page.css';
-@import 'C:/vue/web_shishki/src/templates/reg.css';
+@import '@/templates/login.css';
+@import '@/templates/main_page.css';
+@import '@/templates/reg.css';
 </style>
